@@ -12,22 +12,19 @@ public class Arithmetic_Exception {
 	    int a = sc.nextInt();
 		System.out.println("Enter value for b: ");
 		int b = sc.nextInt();
-		int c ;		
+		int c =0;		
 
         //try block
 		try {
-			c = a/b;
-			//arr[1]=c;
-			//int len = word.length();
-			
+			c = a/b;	
 			
 		} 
 		
-		//catch block
+		//catch block to handle arithmetic exception
 		catch (ArithmeticException e) {
 			c = a /1;
-			System.out.println("Since the value of b was 0, assigning a default value as 1");
-	}
+			System.out.println("Value of b was 0");
 
+}
 }
 }
