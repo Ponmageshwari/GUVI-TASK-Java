@@ -2,7 +2,7 @@ package Task_11;
 
 import java.util.Scanner;
 
-public class Arithmetic_Exception {
+public class Userhandle_Exception {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,8 +22,8 @@ public class Arithmetic_Exception {
 		
 		//catch block to handle arithmetic exception
 		catch (ArithmeticException e) {
-			c = a /1;
-			System.out.println("Value of b was 0");
+			c=a/1;
+			System.out.println("The value of b was 0 and handled the exception");
 
 }
 }
